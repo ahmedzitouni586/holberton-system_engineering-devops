@@ -1,1 +1,1 @@
-file --mime-type -m
+--mime-type -m holberton.mgc *
