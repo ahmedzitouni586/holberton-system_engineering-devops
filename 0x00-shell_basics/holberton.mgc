@@ -1,1 +1,1 @@
-file --separator
+file -F --separator
