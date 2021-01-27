@@ -1,1 +1,1 @@
-file -C [-m magicfiles]
+ file [-m magicfiles]
