@@ -1,1 +1,1 @@
-file -F --separator
+file --magic-file
