@@ -1,2 +1,2 @@
 #!/bin/bash
-unlink .js/
+find . -name '*.js' -type f -delete
