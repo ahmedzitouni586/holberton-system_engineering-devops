@@ -1,2 +1,2 @@
 #!/bin/bash
-ls-la > Holberton School < \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)
+ls-la > ls_cwd_content
