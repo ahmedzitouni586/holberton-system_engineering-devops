@@ -1,2 +1,2 @@
 #!/bin/bash
-echo \n Hello, World
+printf '*HelloWorld*\n%.0s' {1..2}
