@@ -2,7 +2,6 @@
 # Display Holberton school 10 times using until
 
 counter=0
-
 until [ $counter -gt 10 ]
 do
   echo "Holberton School"
