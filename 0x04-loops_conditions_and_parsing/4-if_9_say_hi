@@ -7,6 +7,7 @@ do
     echo "Holberton School"
     if $x = 9
     then
-    echo "Hi"
+        echo "Hi"
+    fi
     x=$((x+1))
 done
