@@ -12,6 +12,7 @@ do
     then
         echo "good luck"
     else
+        echo "Holberton School"
     fi
     x=$((x+1))
 done
