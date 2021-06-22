@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #display current running process
 
-ps -aux
+ps -afxu
