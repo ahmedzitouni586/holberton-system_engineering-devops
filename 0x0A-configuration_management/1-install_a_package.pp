@@ -1,4 +1,4 @@
 package { 'puppet-lint':
-    ensure  => installed,
-    name    => 'puppet-lint',
+    ensure      => '2.1.1',
+    provider    => 'gem',
 }
