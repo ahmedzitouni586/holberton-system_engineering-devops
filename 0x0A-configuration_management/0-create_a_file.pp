@@ -1,3 +1,4 @@
+# create a file using Puppet
 file { '/tmp/holberton':
     ensure  => 'file',
     mode    => '0744',
