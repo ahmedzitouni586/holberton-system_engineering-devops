@@ -1,3 +1,4 @@
+# make config to the ssh_config file
 exec { 'sed -i "s/   PasswordAuthentication yes/   PasswordAuthentication no/g /etc/ssh/ssh_config"':
     path => '/bin'
 }
