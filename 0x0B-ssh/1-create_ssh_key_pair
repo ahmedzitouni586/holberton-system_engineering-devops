@@ -3,4 +3,4 @@
 # Number of bits in the created key to be created 4096
 # The created key must be protected by a passphrase betty
 
-ssh-keygen -l holberton -b 4096 -p betty
+ssh-keygen -t rsa -b 4096 -f holberton -P betty
