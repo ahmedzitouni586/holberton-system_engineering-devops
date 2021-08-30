@@ -39,9 +39,9 @@ frontend www-http
     mode http
     default_backend webserver
 frontend www-https
-        bind *:443 ssl crt /etc/letsencrypt/live/www.belhassenahmed.tech/fullchain.pem
+        bind *:443 ssl crt /etc/letsencrypt/live/www.holbertonschoolstudent.tech/fullchain.pem
         default_backend webserver
 backend webserver
     balance roundrobin
-    server 2642-web-01 34.139.123.27 check
-    server 2642-web-02 34.73.206.129:80 check
+    server 2642-web-01 34.139.234.104 check
+    server 2642-web-02 34.138.147.247:80 check
