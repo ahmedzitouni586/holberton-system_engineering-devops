@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Installing Nginx on Server
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get install -y nginx
-sudo sed -i "46i\\\tadd_header X-Served-By $HOSTNAME;"
-echo "Holberton School" > /var/www/html/index.nginx-debian.html
-service nginx restart
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo service nginx start
+nl="\\\tadd_header X-Served-By \$hostname;"
+sed -i -e "/sendfile/i $nl" /etc/nginx/nginx.conf
+sudo service nginx restart
