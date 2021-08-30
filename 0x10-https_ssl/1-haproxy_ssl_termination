@@ -43,5 +43,5 @@ frontend www-https
         default_backend webserver
 backend webserver
     balance roundrobin
-    server 2642-web-01 34.139.234.104 check
-    server 2642-web-02 34.138.147.247:80 check
+    server 2600-web-01 34.139.234.104 check
+    server 2600-web-02 34.138.147.247:80 check
