@@ -3,6 +3,7 @@
 
 import requests
 
+
 def number_of_subscribers(subreddit):
     """return the number of subscribers for a given subreddit"""
     r = requests.get("https://reddit.com/r/{}/about.json".format(subreddit),
